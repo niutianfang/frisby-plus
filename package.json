@@ -1,6 +1,6 @@
 {
   "name": "frisby-plus",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "REST API Testing framework build on Frisby.js and Jasmine",
   "keywords": [
     "API",
@@ -10,6 +10,10 @@
   "author": "TianfangNiu<niutianfang@gmail.com>",
   "license": {
     "type": "BSD"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/niutianfang/frisby-plus"
   },
   "dependencies": {
     "colors": "^1.1.2",
@@ -25,5 +29,12 @@
     "form-data": "~0.1.4",
     "jasmine-spec-reporter": "^2.7.0",
     "minijasminenode2": "^1.0.0"
+  },
+  "peerDependencies": {
+    "jasmine-node": "^1.14.5"
+  },
+  "main": "./lib/frisby-plus",
+  "engines": {
+    "node": ">= 0.10.0"
   }
 }
