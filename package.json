@@ -1,6 +1,6 @@
 {
   "name": "frisby-plus",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "REST API Testing framework build on Frisby.js and Jasmine",
   "keywords": [
     "API",
@@ -30,10 +30,7 @@
     "jasmine-spec-reporter": "^2.7.0",
     "minijasminenode2": "^1.0.0"
   },
-  "peerDependencies": {
-    "jasmine-node": "^1.14.5"
-  },
-  "main": "./lib/frisby-plus",
+  "main": "./lib/frisbyPlus",
   "engines": {
     "node": ">= 0.10.0"
   }
