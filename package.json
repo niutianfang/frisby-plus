@@ -1,6 +1,6 @@
 {
   "name": "frisby-plus",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "REST API Testing framework build on Frisby.js and Jasmine",
   "keywords": [
     "API",
